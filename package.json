@@ -4,7 +4,8 @@
   "description": "webpack test",
   "main": "index.js",
   "scripts": {
-    "build:default": "webpack"
+    "build:default": "webpack",
+    "build:development": "webpack --mode=development ./src/index.js -o ./docs/bundle.js"
   },
   "author": "",
   "license": "ISC",
