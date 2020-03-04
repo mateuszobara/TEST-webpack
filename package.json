@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build:default": "webpack",
-    "build:development": "webpack --mode=development ./src/index.js -o ./docs/bundle.js"
+    "build:development": "webpack --mode=development ./src/index.js -o ./docs/bundle.js",
+    "build": "webpack --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",
